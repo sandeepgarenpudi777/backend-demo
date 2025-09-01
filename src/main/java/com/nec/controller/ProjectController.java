@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/projects")
-@CrossOrigin(origins ="http://localhost:5173") // allow React dev server
+@CrossOrigin(origins ="https://portfolio-forntend.onrender.com/") // allow React dev server
 public class ProjectController {
 
     private final ProjectService service;
